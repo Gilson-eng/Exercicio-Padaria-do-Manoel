@@ -1,12 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using Dominio.Models;
 
 namespace Views
 {
@@ -15,6 +9,20 @@ namespace Views
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void TxtUsuario_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void OK_Click(object sender, EventArgs e)
+        {
+            string username = TxtUsuario.Text;
+            string senha = TxtSenha.Text;
+            TbUsuario
+
+
         }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gilson\\Desktop\\GILSON\\FACULDADE\\7º PERÍODO\\POOII\\1ª ETAPA\\SOFTAWARE PADARIA\\PadariaDoManoel\\Dominio\\Dominio.csproj": {}
+    "C:\\Users\\Gilson\\Desktop\\GILSON\\FACULDADE\\7º PERÍODO\\POOII\\1ª ETAPA\\SOFTWARE PADARIA\\PadariaDoManoel\\Dominio\\Dominio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gilson\\Desktop\\GILSON\\FACULDADE\\7º PERÍODO\\POOII\\1ª ETAPA\\SOFTAWARE PADARIA\\PadariaDoManoel\\Dominio\\Dominio.csproj": {
+    "C:\\Users\\Gilson\\Desktop\\GILSON\\FACULDADE\\7º PERÍODO\\POOII\\1ª ETAPA\\SOFTWARE PADARIA\\PadariaDoManoel\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gilson\\Desktop\\GILSON\\FACULDADE\\7º PERÍODO\\POOII\\1ª ETAPA\\SOFTAWARE PADARIA\\PadariaDoManoel\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\Gilson\\Desktop\\GILSON\\FACULDADE\\7º PERÍODO\\POOII\\1ª ETAPA\\SOFTWARE PADARIA\\PadariaDoManoel\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\Users\\Gilson\\Desktop\\GILSON\\FACULDADE\\7º PERÍODO\\POOII\\1ª ETAPA\\SOFTAWARE PADARIA\\PadariaDoManoel\\Dominio\\Dominio.csproj",
+        "projectPath": "C:\\Users\\Gilson\\Desktop\\GILSON\\FACULDADE\\7º PERÍODO\\POOII\\1ª ETAPA\\SOFTWARE PADARIA\\PadariaDoManoel\\Dominio\\Dominio.csproj",
         "packagesPath": "C:\\Users\\Gilson\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gilson\\Desktop\\GILSON\\FACULDADE\\7º PERÍODO\\POOII\\1ª ETAPA\\SOFTAWARE PADARIA\\PadariaDoManoel\\Dominio\\obj\\",
+        "outputPath": "C:\\Users\\Gilson\\Desktop\\GILSON\\FACULDADE\\7º PERÍODO\\POOII\\1ª ETAPA\\SOFTWARE PADARIA\\PadariaDoManoel\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,6 +43,32 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "MySql.Simple": {
+              "target": "Package",
+              "version": "[5.3.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
