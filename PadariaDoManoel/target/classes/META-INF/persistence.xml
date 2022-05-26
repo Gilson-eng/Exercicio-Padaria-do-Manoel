@@ -5,6 +5,11 @@
     <class>csClasses.Categoria</class>
     <class>csClasses.Comanda</class>
     <class>csClasses.ItemComanda</class>
+    <class>csMovimento</class>
+    <class>csPerfil</class>
+    <class>csProduto</class>
+    <class>csUnidadeMedida</class>
+    <class>csUsuario</class>
     
     
     
